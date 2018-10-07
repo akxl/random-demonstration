@@ -2,3 +2,7 @@ language: java
 jdk:
 - oraclejdk8
 script: gradle clean test
+deploy:
+  provider: heroku
+  api_key: 624dbc46-fe7a-43d5-a8d5-53162ca40136
+  app: random-demonstration
